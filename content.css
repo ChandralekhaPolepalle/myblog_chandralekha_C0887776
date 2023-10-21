@@ -38,6 +38,25 @@ aside {
     padding: 20px;
 }
 
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-gallery img {
+    max-width: 30%;
+    max-height: 50%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
 footer {
     color: black;
     text-align: center;
